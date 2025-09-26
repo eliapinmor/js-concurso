@@ -1,0 +1,94 @@
+{
+    "preguntas": [
+        {
+            "id": 1,
+            "pregunta": "¿Cuál es el río más largo del mundo?",
+            "opcion-1": "Nilo",
+            "opcion-2": "Amazonas",
+            "opcion-3": "Yangtsé",
+            "opcion-4": "Misisipi",
+            "opcion-correcta": "opcion-2"
+        },
+        {
+            "id": 2,
+            "pregunta": "¿En qué año llegó el ser humano a la Luna?",
+            "opcion-1": "1965",
+            "opcion-2": "1969",
+            "opcion-3": "1972",
+            "opcion-4": "1959",
+            "opcion-correcta": "opcion-2"
+        },
+        {
+            "id": 3,
+            "pregunta": "¿Quién pintó La última cena?",
+            "opcion-1": "Miguel Ángel",
+            "opcion-2": "Leonardo da Vinci",
+            "opcion-3": "Rafael",
+            "opcion-4": "Rembrandt",
+            "opcion-correcta": "opcion-2"
+        },
+        {
+            "id": 4,
+            "pregunta": "¿Cuál es el país más poblado del mundo?",
+            "opcion-1": "India",
+            "opcion-2": "Estados Unidos",
+            "opcion-3": "China",
+            "opcion-4": "Indonesia",
+            "opcion-correcta": "opcion-1"
+        },
+        {
+            "id": 5,
+            "pregunta": "¿Qué elemento químico tiene el símbolo O?",
+            "opcion-1": "Oro",
+            "opcion-2": "Oxígeno",
+            "opcion-3": "Osmio",
+            "opcion-4": "Óxido",
+            "opcion-correcta": "opcion-2"
+        },
+        {
+            "id": 6,
+            "pregunta": "¿En qué continente está Egipto?",
+            "opcion-1": "Asia",
+            "opcion-2": "Europa",
+            "opcion-3": "África",
+            "opcion-4": "Oceanía",
+            "opcion-correcta": "opcion-3"
+        },
+        {
+            "id": 7,
+            "pregunta": "¿Quién escribió 'Cien años de soledad'?",
+            "opcion-1": "Mario Vargas Llosa",
+            "opcion-2": "Gabriel García Márquez",
+            "opcion-3": "Pablo Neruda",
+            "opcion-4": "Julio Cortázar",
+            "opcion-correcta": "opcion-2"
+        },
+        {
+            "id": 8,
+            "pregunta": "¿Cuál es la capital de Australia?",
+            "opcion-1": "Sídney",
+            "opcion-2": "Melbourne",
+            "opcion-3": "Canberra",
+            "opcion-4": "Brisbane",
+            "opcion-correcta": "opcion-3"
+        },
+        {
+            "id": 9,
+            "pregunta": "¿Qué científico desarrolló la teoría de la relatividad?",
+            "opcion-1": "Isaac Newton",
+            "opcion-2": "Nikola Tesla",
+            "opcion-3": "Albert Einstein",
+            "opcion-4": "Stephen Hawking",
+            "opcion-correcta": "opcion-3"
+        },
+        {
+            "id": 10,
+            "pregunta": "¿Cuál es el océano más grande del mundo?",
+            "opcion-1": "Atlántico",
+            "opcion-2": "Índico",
+            "opcion-3": "Pacífico",
+            "opcion-4": "Ártico",
+            "opcion-correcta": "opcion-3"
+        }
+    ]
+}
