@@ -16,6 +16,13 @@ function cargarPreguntas() {
         .catch(error => console.error('Error al cargar JSON:', error));
 }
 
+function iniciarPartida(){
+    const username = document.querySelector(".username").value;
+    const texto = document.querySelector(".saludo");
+    texto.innerHTML = "Buenas, " + username;
+
+}
+
 window.onload = function () {
     cargarPreguntas();
 }
