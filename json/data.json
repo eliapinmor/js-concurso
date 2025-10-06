@@ -17,7 +17,7 @@
                     "opcion4": "Misisipi"
                 }
             ],
-            "opcion-correcta": "opcion2"
+            "opcion_correcta": "opcion2"
         },
         {
             "id": 2,
@@ -36,7 +36,7 @@
                     "opcion4": "1959"
                 }
             ],
-            "opcion-correcta": "opcion2"
+            "opcion_correcta": "opcion2"
         },
         {
             "id": 3,
@@ -55,7 +55,7 @@
                     "opcion4": "Rembrandt"
                 }
             ],
-            "opcion-correcta": "opcion2"
+            "opcion_correcta": "opcion2"
         },
         {
             "id": 4,
@@ -74,7 +74,7 @@
                     "opcion4": "Indonesia"
                 }
             ],
-            "opcion-correcta": "opcion1"
+            "opcion_correcta": "opcion1"
         },
         {
             "id": 5,
@@ -93,7 +93,7 @@
                     "opcion4": "Óxido"
                 }
             ],
-            "opcion-correcta": "opcion2"
+            "opcion_correcta": "opcion2"
         },
         {
             "id": 6,
@@ -112,7 +112,7 @@
                     "opcion4": "Oceanía"
                 }
             ],
-            "opcion-correcta": "opcion3"
+            "opcion_correcta": "opcion3"
         },
         {
             "id": 7,
@@ -131,7 +131,7 @@
                     "opcion4": "Julio Cortázar"
                 }
             ],
-            "opcion-correcta": "opcion2"
+            "opcion_correcta": "opcion2"
         },
         {
             "id": 8,
@@ -150,7 +150,7 @@
                     "opcion4": "Brisbane"
                 }
             ],
-            "opcion-correcta": "opcion3"
+            "opcion_correcta": "opcion3"
         },
         {
             "id": 9,
@@ -169,7 +169,7 @@
                     "opcion4": "Stephen Hawking"
                 }
             ],
-            "opcion-correcta": "opcion3"
+            "opcion_correcta": "opcion3"
         },
         {
             "id": 10,
@@ -188,7 +188,7 @@
                     "opcion4": "Ártico"
                 }
             ],
-            "opcion-correcta": "opcion3"
+            "opcion_correcta": "opcion3"
         }
     ]
 }
