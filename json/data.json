@@ -3,111 +3,191 @@
         {
             "id": 1,
             "pregunta": "¿Cuál es el río más largo del mundo?",
-            "opciones": {
-                "opcion1": "Nilo",
-                "opcion2": "Amazonas",
-                "opcion3": "Yangtsé",
-                "opcion4": "Misisipi"
-            },
+            "opciones": [
+                {
+                    "opcion1": "Nilo"
+                },
+                {
+                    "opcion2": "Amazonas"
+                },
+                {
+                    "opcion3": "Yangtsé"
+                },
+                {
+                    "opcion4": "Misisipi"
+                }
+            ],
             "opcion-correcta": "opcion2"
         },
         {
             "id": 2,
             "pregunta": "¿En qué año llegó el ser humano a la Luna?",
-            "opciones": {
-                "opcion1": "1965",
-                "opcion2": "1969",
-                "opcion3": "1972",
-                "opcion4": "1959"
-            },
+            "opciones": [
+                {
+                    "opcion1": "1965"
+                },
+                {
+                    "opcion2": "1969"
+                },
+                {
+                    "opcion3": "1972"
+                },
+                {
+                    "opcion4": "1959"
+                }
+            ],
             "opcion-correcta": "opcion2"
         },
         {
             "id": 3,
             "pregunta": "¿Quién pintó La última cena?",
-            "opciones": {
-                "opcion1": "Miguel Ángel",
-                "opcion2": "Leonardo da Vinci",
-                "opcion3": "Rafael",
-                "opcion4": "Rembrandt"
-            },
+            "opciones": [
+                {
+                    "opcion1": "Miguel Ángel"
+                },
+                {
+                    "opcion2": "Leonardo da Vinci"
+                },
+                {
+                    "opcion3": "Rafael"
+                },
+                {
+                    "opcion4": "Rembrandt"
+                }
+            ],
             "opcion-correcta": "opcion2"
         },
         {
             "id": 4,
             "pregunta": "¿Cuál es el país más poblado del mundo?",
-            "opciones": {
-                "opcion1": "India",
-                "opcion2": "Estados Unidos",
-                "opcion3": "China",
-                "opcion4": "Indonesia"
-            },
+            "opciones": [
+                {
+                    "opcion1": "India"
+                },
+                {
+                    "opcion2": "Estados Unidos"
+                },
+                {
+                    "opcion3": "China"
+                },
+                {
+                    "opcion4": "Indonesia"
+                }
+            ],
             "opcion-correcta": "opcion1"
         },
         {
             "id": 5,
             "pregunta": "¿Qué elemento químico tiene el símbolo O?",
-            "opciones": {
-                "opcion1": "Oro",
-                "opcion2": "Oxígeno",
-                "opcion3": "Osmio",
-                "opcion4": "Óxido"
-            },
+            "opciones": [
+                {
+                    "opcion1": "Oro"
+                },
+                {
+                    "opcion2": "Oxígeno"
+                },
+                {
+                    "opcion3": "Osmio"
+                },
+                {
+                    "opcion4": "Óxido"
+                }
+            ],
             "opcion-correcta": "opcion2"
         },
         {
             "id": 6,
             "pregunta": "¿En qué continente está Egipto?",
-            "opciones": {
-                "opcion1": "Asia",
-                "opcion2": "Europa",
-                "opcion3": "África",
-                "opcion4": "Oceanía"
-            },
+            "opciones": [
+                {
+                    "opcion1": "Asia"
+                },
+                {
+                    "opcion2": "Europa"
+                },
+                {
+                    "opcion3": "África"
+                },
+                {
+                    "opcion4": "Oceanía"
+                }
+            ],
             "opcion-correcta": "opcion3"
         },
         {
             "id": 7,
             "pregunta": "¿Quién escribió 'Cien años de soledad'?",
-            "opciones": {
-                "opcion1": "Mario Vargas Llosa",
-                "opcion2": "Gabriel García Márquez",
-                "opcion3": "Pablo Neruda",
-                "opcion4": "Julio Cortázar"
-            },
+            "opciones": [
+                {
+                    "opcion1": "Mario Vargas Llosa"
+                },
+                {
+                    "opcion2": "Gabriel García Márquez"
+                },
+                {
+                    "opcion3": "Pablo Neruda"
+                },
+                {
+                    "opcion4": "Julio Cortázar"
+                }
+            ],
             "opcion-correcta": "opcion2"
         },
         {
             "id": 8,
             "pregunta": "¿Cuál es la capital de Australia?",
-            "opciones": {
-                "opcion1": "Sídney",
-                "opcion2": "Melbourne",
-                "opcion3": "Canberra",
-                "opcion4": "Brisbane"
-            },
+            "opciones": [
+                {
+                    "opcion1": "Sídney"
+                },
+                {
+                    "opcion2": "Melbourne"
+                },
+                {
+                    "opcion3": "Canberra"
+                },
+                {
+                    "opcion4": "Brisbane"
+                }
+            ],
             "opcion-correcta": "opcion3"
         },
         {
             "id": 9,
             "pregunta": "¿Qué científico desarrolló la teoría de la relatividad?",
-            "opciones": {
-                "opcion1": "Isaac Newton",
-                "opcion2": "Nikola Tesla",
-                "opcion3": "Albert Einstein",
-                "opcion4": "Stephen Hawking"
-            },
+            "opciones": [
+                {
+                    "opcion1": "Isaac Newton"
+                },
+                {
+                    "opcion2": "Nikola Tesla"
+                },
+                {
+                    "opcion3": "Albert Einstein"
+                },
+                {
+                    "opcion4": "Stephen Hawking"
+                }
+            ],
             "opcion-correcta": "opcion3"
         },
         {
             "id": 10,
             "pregunta": "¿Cuál es el océano más grande del mundo?",
-            "opciones": {
-                "opcion1": "Atlántico",
-                "opcion2": "Índico",
-                "opcion3": "Pacífico",
-                "opcion4": "Ártico"
-            },
+            "opciones": [
+                {
+                    "opcion1": "Atlántico"
+                },
+                {
+                    "opcion2": "Índico"
+                },
+                {
+                    "opcion3": "Pacífico"
+                },
+                {
+                    "opcion4": "Ártico"
+                }
+            ],
             "opcion-correcta": "opcion3"
         }
     ]
