@@ -3,3 +3,161 @@ body {
     margin-left: 150px;
     margin-right: 150px;
 }
+
+/* =========================
+   ESTILOS GENERALES
+========================= */
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #f0f4ff, #e0eaff);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* =========================
+   CABECERA
+========================= */
+header {
+  background-color: #004aad;
+  width: 100%;
+  text-align: center;
+  padding: 1.5rem 0;
+  color: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+/* =========================
+   LOGIN
+========================= */
+.login {
+  background: white;
+  padding: 2rem 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.login p {
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.username {
+  padding: 0.5rem 1rem;
+  width: 100%;
+  max-width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.login button {
+  background-color: #004aad;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.login button:hover {
+  background-color: #003a8c;
+}
+
+/* =========================
+   SALUDO Y MENSAJE
+========================= */
+.saludo {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 1rem 0;
+}
+
+.mensaje {
+  color: #c62828;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* =========================
+   PREGUNTAS
+========================= */
+.preguntas {
+  width: 90%;
+  max-width: 1000px;
+}
+
+.card-item .card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.card-item .card:hover {
+  transform: scale(1.02);
+}
+
+.card p {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin: 1rem;
+}
+
+.card-body label {
+  background: #f7f9ff;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.card-body label:hover {
+  background: #e0eaff;
+}
+
+/* =========================
+   BOTÓN ENVIAR
+========================= */
+.boton_enviar {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.4rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  display: block;
+  margin: 2rem auto 0 auto;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.boton_enviar:hover {
+  background-color: #218838;
+}
+
+/* =========================
+   FOOTER
+========================= */
+footer {
+  margin-top: auto;
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+  color: #666;
+  font-size: 0.9rem;
+}
