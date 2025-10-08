@@ -24,20 +24,9 @@ function cargarPreguntas() {
         dataNewSort = data.preguntas.sort(() => Math.random() - 0.5);
       }
       preguntasMostradas = dataNewSort.slice(indice, indice + 2);
-      console.log(preguntasMostradas[0]);
-      console.log(preguntasMostradas[1]);
-      console.log(preguntasMostradas[2]);
-      console.log(preguntasMostradas[3]);
-      console.log(preguntasMostradas[4]);
-      console.log(preguntasMostradas[5]);
-      console.log(preguntasMostradas[6]);
-      console.log(preguntasMostradas[7]);
-      console.log(preguntasMostradas[8]);
-      console.log(preguntasMostradas[9]);
 
       preguntasMostradas.forEach(pregunta => {
         const opcionesArray = pregunta.opciones.map(o => {
-          console.log(Object.keys(o))
           const key = Object.keys(o)[0];
           return { key, text: o[key] };
         });
@@ -94,7 +83,7 @@ function checkAnswers() {
   const mensaje = document.querySelector(".mensaje");
   mensaje.innerHTML = "";
   const respuesta1 = document.querySelector(`input[name="${contador}"]:checked`).value;
-  console.log(contador);
+
 
   if (respuesta1 !== preguntasMostradas[0].opcion_correcta) {
 
@@ -107,7 +96,7 @@ function checkAnswers() {
   }
   contador++;
   const respuesta2 = document.querySelector(`input[name="${contador}"]:checked`).value;
-  console.log(contador);
+
 
   if (respuesta2 !== preguntasMostradas[1].opcion_correcta) {
     mensaje.innerHTML = "Respuesta incorrecta, volviendo a inicio...";
@@ -117,7 +106,7 @@ function checkAnswers() {
     }, 1000);
     return;
   }
-  console.log(respuesta2);
+
   contador++;
 
   if (contador >= dataNewSort.length - 1) {
@@ -180,7 +169,7 @@ function guardarDatos(){
     aciertos: contador,
     ganado: isGanado
   };
-  console.log(newObject);
+
   storage.push(newObject)
 
 }
