@@ -3,7 +3,7 @@ let contador = 0;
 let indice = 0;
 let dataNewSort = [];
 let i_name = 0;
-let isGanado = false;
+let isGanado = "No";
 let preguntasMostradas = [];
 let storage = [];
 let usernameObj = "";
@@ -123,7 +123,7 @@ function checkAnswers() {
   if (contador >= dataNewSort.length - 1) {
     mensaje.style.color = "green";
     mensaje.innerHTML = "Has ganado";
-    isGanado = true;
+    isGanado = "Sí";
     guardarDatos();
     setTimeout(() => {
       volverInicio();
@@ -167,18 +167,20 @@ function volverInicio() {
   dataNewSort = [];
   i_name = 0;
   preguntasMostradas = [];
-  isGanado = false;
+  isGanado = "No";
   usernameObj = "";
 
 }
 
 function guardarDatos(){
   //crear un objeto y guardarlo en el array storage[]
+  
   let newObject = {
     jugador: usernameObj,
-    aciertos: contador
+    aciertos: contador,
+    ganado: isGanado
   };
-  console.log(username);
+  console.log(newObject);
   storage.push(newObject)
 
 }
